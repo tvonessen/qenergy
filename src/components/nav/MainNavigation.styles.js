@@ -17,9 +17,10 @@ export const StyledNavBar = styled(Navbar)`
 
   & .navbar-toggler {
     border-color: #005bbe;
+    color: #005bbe;
     position: fixed;
-    right: 18px;
-    top: 18px;
+    right: 15px;
+    top: 13px;
   }
 
   & .offcanvas {

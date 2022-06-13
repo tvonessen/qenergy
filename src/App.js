@@ -17,8 +17,8 @@ function App() {
   const dispatch = useDispatch();
 
   const hierarchy = [
-    { name: "Overview", path: "/data" },
     { name: "Dashboard", path: "/dashboard" },
+    { name: "Database", path: "/data" },
   ];
 
   useEffect(() => {
@@ -39,8 +39,8 @@ function App() {
               </div>
               <Container fluid className="px-0 mb-0 ps-lg-3 pe-lg-2" id="main-content">
                 <Routes>
-                  <Route default path="/data" element={<MainData />}></Route>
-                  <Route exact path="/dashboard" element={<Dashboard />}></Route>
+                  <Route default path="/dashboard" element={<Dashboard />}></Route>
+                  <Route exact path="/data" element={<MainData />}></Route>
                 </Routes>
                 <Footer />
               </Container>
@@ -49,7 +49,7 @@ function App() {
         </div>
       );
     } else {
-      return <Navigate to="/data" />;
+      return <Navigate to="/dashboard" />;
     }
   } else {
     return (

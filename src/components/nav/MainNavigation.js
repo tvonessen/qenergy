@@ -50,11 +50,11 @@ const MainNavigation = (props) => {
           style={{ paddingBottom: "0", alignItems: "start" }}
         >
           <Button type="button" className="btn-close" onClick={() => setShow(false)}></Button>
-          <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+          <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="mt-3">
             <img
               alt="Q-Energy"
-              width="150"
-              height="50"
+              width="120"
+              height="40"
               src="https://qenergy.b-cdn.net/wp-content/uploads/Q-Energy.svg"
             />
             <hr />

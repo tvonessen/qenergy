@@ -46,10 +46,10 @@ const ProjectsTable = (props) => {
       <Row>
         <Col xs={12} md={{ span: 6, offset: 6 }} lg={{ span: 4, offset: 8 }}>
           <Stack direction="horizontal" className="align-content-middle">
-            <h5 className="my-3 mx-1">
+            <h5 className="my-1 mx-1">
               <AiOutlineFilter />
             </h5>
-            <InputGroup className="my-3 mx-1">
+            <InputGroup className="my-1 mx-1">
               <FormControl
                 placeholder="Filter names"
                 aria-label="Filter project names"
