@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker&display=swap");
+
+$primary: #005bbe;
+// median: #1B4C81;
+$secondary: #33334c;
+$info: #33334c;
+$danger: #e32a2a;
+$success: #31b62e;
+$light: #f5f7f7;
+$dark: #171b23;
+$font-family-base: "Blinker", Sans-serif;
+
+@import "~bootstrap/scss/bootstrap";
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
