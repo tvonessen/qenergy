@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Button, Row, Col } from "react-bootstrap";
+import { Button, Row, Col } from "react-bootstrap";
 import { StyledFooter } from "./Footer.styles";
 
 const Footer = () => {

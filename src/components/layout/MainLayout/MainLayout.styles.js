@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Container } from "react-bootstrap";
 
 export const StyledFlexContainer = styled.div`
   display: flex !important;
